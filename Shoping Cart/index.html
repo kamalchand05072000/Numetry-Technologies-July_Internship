@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li><a href="shopping-cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="card" data-id="1">
+            <img src="https://www.shutterstock.com/shutterstock/photos/2041886246/display_1500/stock-photo-blue-jeans-front-and-back-side-with-label-isolated-on-white-background-2041886246.jpg" alt="Product 1">
+            <h2>shutterstock : Blue Jeans front and back side with label isolated on white Background</h2>
+            <p>This is a Best Seller product.</p>
+            <p class="price">$ 349</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="2">
+            <img src="https://www.shutterstock.com/shutterstock/photos/2227664043/display_1500/stock-photo-collection-of-jeans-trousers-isolated-on-white-background-2227664043.jpg">
+            <h2>shutterstock: Casual jeans set <br/> Blue Jeans front and back side with label isolated on white Background</h2>
+            <p>This is a good product.</p>
+            <p class="price">$ 299</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="3">
+            <img src="https://media.istockphoto.com/id/1393263127/vector/navy-blue-factory-uniform-pants-template-on-white-background-vector-file.jpg?s=1024x1024&w=is&k=20&c=rbabrBU8PkG-lR5Jb736K6t9P4Y59OGwN09xyXgyy4Q=" alt="Product 3">
+            <h2>iStock: New lower prices </h2>
+            <h2>Credit: Vector Design <br/> Navy Blue Factory Uniform Pants Template on White Background, Vector File. stock illustration</h2>
+            <p>This is  very good product.</p>
+            <p class="price">$ 499</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="4">
+            <img src="https://media.istockphoto.com/id/1324882960/vector/navy-blue-tracksuit-pants-template-vector-on-white-background.jpg?s=2048x2048&w=is&k=20&c=aY9Nrw23m1Cb9q8F9cLl9XZUbnNnUkbY1ah_ryFmRtg=" alt="Product 4">
+            <h2>iStock : New lower prices </h2>
+            <h2>Credit: Vector Design <br/> Navy Blue Tracksuit Pants Template Vector On White Background stock illustration, Vector File.</h2>
+            <p>This is an excellent product.</p>
+            <p class="price">$ 199</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="5">
+            <img src="https://media.istockphoto.com/id/1429958682/vector/dark-blue-pant-long-and-short-fashion-collection-set-illustration-vector.jpg?s=1024x1024&w=is&k=20&c=BwKteSJ8ujfxEc87odWjDtqU_awcWfwNqBupR0ZX8xc=" alt="Product 5">
+            <h2>iStock : New lower prices </h2>
+            <h2>Credit: Vector Design <br/> Dark Blue Pant Long and Short fashion collection set illustration vector stock illustration, Navy Blue Track  Vector File.</h2>
+            <p>This is an awesome product.</p>
+            <p class="price">$ 699</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="6">
+            <img src="https://media.istockphoto.com/id/532278616/photo/perfect-match.jpg?s=1024x1024&w=is&k=20&c=tJ6tBGzfg0ulOZo9sWnPFb49UWrcRU-aK2BgkKKc50c=" alt="Product 6">
+            <h2>iStock : New Men's Pants prices </h2>
+            <h2>Credit: Vector Design <br/> Dark Yellow Pant Long and Short fashion collection set illustration vector stock illustration.</h2>
+            <p>This is another great product.</p>
+            <p class="price">$ 999</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="7">
+            <img src="https://media.istockphoto.com/id/1320937870/photo/style-in-browns-and-grays.jpg?s=1024x1024&w=is&k=20&c=FvAWiiU13gfQltMZuroixKam_7A52JCAyI-ZPRR8gn4=" alt="Product 7">
+            <h2>iStock : New Men's Pants prices </h2>
+            <h2>Credit: Vector Design <br/> Dark Gray Pant Long and Short fashion collection set illustration vector stock illustration.</h2>
+            <p>This is a excellent product.</p>
+            <p class="price">$ 449</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="8">
+            <img src="https://media.istockphoto.com/id/1150051518/photo/sale-assortment-denim-collection-stand-boutique-shop.jpg?s=1024x1024&w=is&k=20&c=hFkHxGtDLFWuuU8rtsHn2tO0sPiwhzcvloe9Kh5RnGk=" alt="Product 8">
+            <h2>iStock : New Men's Pants prices </h2>
+            <h2>Credit: Yuriy Kovtun <br/> Dark Blue Pant Long and Short Fashion collection Stylish jeans clothing store stands showcase boutique</h2>
+            <p>This is good product.</p>
+            <p class="price">$ 259</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="9">
+            <img src="https://media.istockphoto.com/id/915923400/photo/blue-mens-jeans-denim-pants-on-orange-background-contrast-saturated-color-fashion-clothing.jpg?s=1024x1024&w=is&k=20&c=_dpmyWYUnq2TkBz7rRngTujWGie3JoUG96sVwH-fTuQ=" alt="Product 9">
+            <h2>iStock : New Men's Pants prices </h2>
+            <h2>Credit: Yuriy Kovtun <br/> Dark Blue Pant Long and Short Fashion collection Stylish jeans clothing store stands showcase boutique</h2>
+            <p>This is very good product.</p>
+            <p class="price">$ 389</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="10">
+            <img src="https://media.istockphoto.com/id/1215749874/photo/detail-of-a-printed-flare-pants.jpg?s=1024x1024&w=is&k=20&c=Pn--wQaSIiOZjkkuBufOPfXrsEAd29ARW9jKrWfNP48=" alt="Product 9">
+            <h2>iStock : New Ladies Pants prices </h2>
+            <h2>Credit: Yuriy Kovtun <br/> Dark blue-mens-jeans-denim-pants-on-orange-background-contrast-saturated-color-fashion collection Stylish </h2>
+            <p>This is good product.</p>
+            <p class="price">$ 499</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="11">
+            <img src="https://media.istockphoto.com/id/1224545469/photo/close-up-green-sport-pants-sweatpants-jogging-for-men-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=pIBNwe8r3aeRDL5mcgGojtGRqYCYh9xzFeMvV9jaB3I=" alt="Product 9">
+            <h2>iStock : New Men's lower prices </h2>
+            <h2>Credit: Yuriy Kovtun <br/> Dark Green Pant Long and Short Fashion collection Stylish jeans clothing store stands showcase boutique</h2>
+            <p>This is Better product.</p>
+            <p class="price">$ 699</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <div class="card" data-id="12">
+            <img src="https://media.istockphoto.com/id/1250958527/vector/woman-and-man-fashion-clothes.jpg?s=2048x2048&w=is&k=20&c=UvQ5Xvyg9HaIUAj5gk03TzydOuRVQwr-Naz3HOUmIQk=" alt="Product 9">
+            <h2>iStock : Woman and man fashion clothes</h2>
+            <h2>Credit: Yuriy Kovtun <br/> Dark color and simple many clothes Long and Short Fashion collection Stylish jeans clothing store stands showcase boutique</h2>
+            <p>This is Best Seller product.</p>
+            <p class="price">$ 1099</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="quantity" style="display: none;">
+                <button class="decrease">-</button>
+                <span class="quantity-number">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+    </main>
+    <div id="cart-popup" class="cart-popup" style="display: none;">
+        <h2>Cart Contents</h2>
+        <div id="cart-items"></div>
+        <button id="close-cart">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
